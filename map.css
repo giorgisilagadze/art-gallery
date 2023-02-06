@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: url("./art-gallery-website_1/assets/mobile/image-map.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: 100% 550px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.div-button {
+    display: flex;
+}
+
+.div-loc {
+    display: flex;
+    background-color: #151515;
+    width: 204px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.div-arrow {
+    display: flex;
+    background-color: #D5966C;
+    width: 56px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-main {
+    margin-top: 478px;
+    background-color: #151515;
+    width: 100%;
+}
+
+.h1-main {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color: white;
+    padding: 48px 16px;
+}
+
+.h2-main {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    color: #D5966C;
+    padding: 0px 16px;
+}
+
+.p-main {
+    padding: 20px 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+.p2-main {
+    padding: 0px 16px 56px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: #D5966C;
+}
+
+.foot-svg {
+    padding-top: 48px;
+    padding-left: 32px;
+}
+
+.foot-p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 38px 32px;
+    color: #151515;
+}
+
+.foot-div {
+    margin-left: 32px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(0%) sepia(14%) saturate(4879%) hue-rotate(341deg) brightness(0%) contrast(84%);
+    
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url("./art-gallery-website_1/assets/tablet/image-map.png");
+        background-repeat: no-repeat;
+        width: 100vw;
+        background-size: 100% 550px;
+        
+    }
+
+    .div-button {
+        margin-left: 39px;
+    }
+
+    .div-main {
+        margin-top: 478px;
+        background-color: #151515;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .div-text {
+        width: 51.8%;
+        margin: 88px 24px 32px 52px;
+    }
+
+    .h1-main {
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 50px;
+        color: white;
+        padding: 88px 0px 0px 39px;   
+        width: 223px;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .foot-svg {
+        padding-top: 56px;
+        padding-left: 39px;
+        padding-bottom: 120px;
+    }
+
+    .foot-p {
+        width: 36.5%;
+        padding: 56px 0px 56px 65px;
+    }
+
+    .foot-div {
+        margin-top: 56px;
+        margin-left: 133px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url("./art-gallery-website_1/assets/desktop/image-map.png");
+        background-repeat: no-repeat;
+        width: 100vw;
+        background-size: 100% 600px;
+        
+    }
+
+    .div-button {
+        margin-left: 156px;
+    }
+
+    .div-main {
+        margin-top: 528px;
+        background-color: #151515;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .h1-main {
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 70px;
+        color: white;
+        padding: 104px 0px 304px 165px;   
+        width: 223px;
+    }
+
+/* did ekranze urevs */
+
+    .div-text {
+        width: 37.5%;
+        margin: 104px 24px 32px 330px;
+    }
+
+    .h2-main {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .p-main {
+        font-size: 22px;
+        line-height: 32px;
+        padding-top: 24px;
+    }
+
+    .p2-main {
+        font-size: 22px;
+        line-height: 32px;
+        padding-top: 12px;
+    }
+
+    .footer {
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .foot-svg {
+        padding-top: 80px;
+        padding-left: 11.5%;
+        padding-bottom: 106px;
+        width: 159px;
+        height: 58px;
+    }
+/* did ekranze ireva */
+    .foot-p {
+        width: 30%;
+        padding: 80px 0px 80px 9.7%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .foot-div {
+        margin-top: 80px;
+        margin-left: 19.4%;
+    }
+}
